@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload and we did here is v2.
         </p>
         <a
           className="App-link"
@@ -18,7 +18,6 @@ function App() {
         >
           Learn React
         </a>
-        <h1>hello from v2</h1>
       </header>
     </div>
   );
