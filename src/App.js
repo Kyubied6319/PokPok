@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 const user = {
   name : 'Tumblepoke',
-  imageUrl: 'https://drive.google.com/uc?export=view&id=1X0ENC_-RHRpF4WkV8ncSUpTcK_aVULwH/view?usp=drive_link',
+  imageUrl: 'https://drive.google.com/uc?export=view&id=1X0ENC_-RHRpF4WkV8ncSUpTcK_aVULwH',
   imageSize: 90,
 };
 function App() {
