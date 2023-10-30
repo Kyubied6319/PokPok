@@ -25,11 +25,6 @@ const actions = [
   {title:'Study', attr:'', id: 4},
 ]
 
-//function to list user stats
-
-
-
-
 function App() {
   const listStats = user.stats.map(stat =>
     <li key = {stat.id}>
