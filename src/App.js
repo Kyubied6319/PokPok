@@ -26,21 +26,33 @@ const actions = [
 ]
 
 function App() {
+  //list mapped lists(to be condensed)
   const listStats = user.stats.map(stat =>
     <li key = {stat.id}>
-      {stat.title}: {stat.attr}
+      <strong>{stat.title}:</strong> {stat.attr}
     </li>
     );
   const listActions = actions.map(action =>
     <li key = {action.id}>
-      {action.title}: {action.attr}
+      <strong>{action.title}</strong> {action.attr}
     </li>
     );
+
   return (
     <div className="App">
       <h1>{user.name}</h1>
       <header className="App-header">
-        <img src={user.imageUrl} className="App-logo" alt="logo" />
+        <div className = "row">
+          <div className = 'sideB'>
+            <h2>Stats</h2>
+            <ul>{listStats}</ul>
+          </div>
+          <img src={user.imageUrl} className="App-logo" alt="logo"/>
+          <div className = 'sideB'>
+            <h2>Choose to:</h2>
+            <ul>{listActions}</ul>
+          </div>
+        </div>
         <p>
           Tumblepoke: "Pok Pok"<br></br> Here is one of its favorite songs
         </p>
@@ -54,12 +66,7 @@ function App() {
         </a>
       </header>
       <body>
-        <div className='Stats'>
-          <ul>{listStats}</ul>
-        </div>
-        <div className='Actions'>
-          <ul>{listActions}</ul>
-        </div>
+
       </body>
     </div>
   );
