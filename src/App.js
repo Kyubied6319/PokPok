@@ -44,7 +44,7 @@ function App() {
       <header className="App-header">
         <div className = "row">
           <div className = 'sideB'>
-            <h2>Stats</h2>
+            <h2>Your friend's stats</h2>
             <ul>{listStats}</ul>
           </div>
           <img src={user.imageUrl} className="App-logo" alt="logo"/>

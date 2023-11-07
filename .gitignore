@@ -11,6 +11,9 @@
 # production
 /build
 
+#Server extras
+/server/admin user details.txt
+
 # misc
 .DS_Store
 .env.local
