@@ -1,4 +1,4 @@
-# Getting Started with Loudapp
+# Getting Started with PokPok
 
 This project is a simple vitual pet website that is built with the MERN stack.
 
